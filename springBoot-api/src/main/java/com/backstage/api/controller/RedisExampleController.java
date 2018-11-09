@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Autor jiangcaijun
+ * @author jiangcaijun
  * Created by jiangcaijun on 2017/10/27.
  */
 @Api(description = "redis测试接口")
@@ -20,7 +20,6 @@ public class RedisExampleController {
 
     @Autowired
     private IRedisService redisService;
-
 
     @ApiOperation(value = "redis赋值")
     @GetMapping("/redis/set")
